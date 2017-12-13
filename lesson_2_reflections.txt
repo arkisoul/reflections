@@ -1,0 +1,5 @@
+Q:: What happens when you initialize a repository? Why do you need to do it?
+A:: When we initialize a repository, git create a folder with basic setup files. By checking git status we can get to know current status of a repository if it is initialized by git. We initialized a git repo so that we can track changes of files in that folder and its sub-folders.
+
+Q:: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A::
