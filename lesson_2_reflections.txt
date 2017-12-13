@@ -14,3 +14,6 @@ A:: Branches can help in extending the repository with a new feature or some exp
 
 Q:: How do the diagrams help you visualize the branch structure?
 A:: I can see the branches of my repository and how they are interlinked and at what point of state. A really great tool to visualize current structure of my repository.
+
+Q:: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A:: Merging two branches together put them in current state with all the past commits lined up in accordance with their timestamp. Commit log in a graph format shows when a particular branch was diverged from the master and when it merged back into the master. It also shows in between commits of master and diverged branches.
