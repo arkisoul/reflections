@@ -11,3 +11,6 @@ Branches are part of a git repository.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It helps in tracking. It helps in checking differences between local and remote branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git and Github I would fall back on taking manual backups of files by copying the old ones. It would be very hard at times when there would too many backups. And for collaboration I have to share my files over and over again which will be cumbersome and hard to manage.
