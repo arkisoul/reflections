@@ -2,4 +2,12 @@ Q:: What happens when you initialize a repository? Why do you need to do it?
 A:: When we initialize a repository, git create a folder with basic setup files. By checking git status we can get to know current status of a repository if it is initialized by git. We initialized a git repo so that we can track changes of files in that folder and its sub-folders.
 
 Q:: How is the staging area different from the working directory and the repository? What value do you think it offers?
-A::
+A:: Staging area is like filtered output which is ready to be committed. I can verify changes in the file before committing them.
+Working directory serves as the playground where I can make changes to various files and then subsequently choose from them whether to add them to staging area for commit or split them between one or more commits or discard the changes.
+I can filter out what to commit at a time and make logical commits to the repository.
+
+Q:: How can you use the staging area to make sure you have one commit per logical change?
+A:: I can check for difference between my last commit and staged changes and can verify that I have only a logical change in the staging area.
+
+Q:: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A:: Branches can help in extending the repository with a new feature or some experimental add-ons which are not needed in the original project. This way I could work on a branch different from the master to make such experiments and decide what to do with them later on without affecting the current project line.
