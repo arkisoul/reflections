@@ -11,3 +11,6 @@ A:: I can check for difference between my last commit and staged changes and can
 
 Q:: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A:: Branches can help in extending the repository with a new feature or some experimental add-ons which are not needed in the original project. This way I could work on a branch different from the master to make such experiments and decide what to do with them later on without affecting the current project line.
+
+Q:: How do the diagrams help you visualize the branch structure?
+A:: I can see the branches of my repository and how they are interlinked and at what point of state. A really great tool to visualize current structure of my repository.
