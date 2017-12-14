@@ -14,3 +14,6 @@ It helps in tracking. It helps in checking differences between local and remote 
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without Git and Github I would fall back on taking manual backups of files by copying the old ones. It would be very hard at times when there would too many backups. And for collaboration I have to share my files over and over again which will be cumbersome and hard to manage.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I am including some experimental features in, I can opt out for a separate branch. I can share that separately with people, gather their feedbacks and on achieving satisfying result; I could merge it with master. This helps in keeping master clean and bug free from experimental features.
